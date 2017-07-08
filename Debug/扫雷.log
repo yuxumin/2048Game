@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/7/8 19:18:07。
+     1>项目“G:\vs12文件\2048 CASTLE\扫雷\扫雷.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         F:\V s2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\vs12文件\2048 CASTLE\Debug\2048-Castle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\vs12文件\2048 CASTLE\Debug\2048-Castle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\vs12文件\2048 CASTLE\Debug\2048-Castle.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\2048.obj
+         Debug\Map.obj
+         Debug\Operator.obj
+         Debug\Random.obj
+         扫雷.vcxproj -> G:\vs12文件\2048 CASTLE\Debug\2048-Castle.exe
+     1>已完成生成项目“G:\vs12文件\2048 CASTLE\扫雷\扫雷.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.45
