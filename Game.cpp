@@ -1,6 +1,7 @@
 #include<iostream>
 #include<windows.h>
 #include"Game.h"
+#include<windows.h>
 using namespace std;
 int Game:: Mune()
 {
@@ -73,5 +74,41 @@ void Game::Exit(){
 	cout<<"│[简单说明]：游戏结束界面，谢谢您的使用！          │\n";
 	cout<<"└—————————————————————————┘\n";
 	cout<<"感谢您的使用，谢谢！按任意键退出游戏...\n"; 
+}
+void Game::Small()
+{
+	system("cls");                                 //清屏
+	system("title 2048  Small Size");     //修改窗口标题
+	system("color 3f");                            //定义窗口颜色
+	system ("mode con cols=30 lines=13");          //设置窗口大小
+	Map MySmallMap;
+	MySmallMap.SetSize(4);
+	MySmallMap.InitMap();
+	cout<<MySmallMap;
+	system("pause");
+}
+void Game::Medium()
+{
+	system("cls");                                 //清屏
+	system("title 2048  Medium Size");     //修改窗口标题
+	system("color 3f");                            //定义窗口颜色
+	system ("mode con cols=35 lines=15");          //设置窗口大小
+	Map MySmallMap;
+	MySmallMap.SetSize(5);
+	MySmallMap.InitMap();
+	cout<<MySmallMap;
+	system("pause");
+}
+void Game::Big()
+{
+	system("cls");                                 //清屏
+	system("title 2048  Big Size");     //修改窗口标题
+	system("color 3f");                            //定义窗口颜色
+	system ("mode con cols=40 lines=20");          //设置窗口大小
+	Map MySmallMap;
+	MySmallMap.SetSize(6);
+	MySmallMap.InitMap();
+	cout<<MySmallMap;
+	system("pause");
 }
 

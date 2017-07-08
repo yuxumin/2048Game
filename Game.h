@@ -9,9 +9,10 @@ public:
 	int Mune();
 	void Exit();
 	void Start();
-	void Small(){}
-	void Medium(){}
-	void Big(){}
+	void Small();
+	void Medium();
+	void Big();
+	void FlushMap(){}
 	bool Continue;
 	bool Exwhile;
 	friend class Map;
