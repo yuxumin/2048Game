@@ -1,18 +1,18 @@
 #ifndef Game_H
 #define Game_H
-#include"Map.h"
 #include"Operator.h"
 #include"Random.h"
+class Map;
 class Game:public Operator,public Random{
 public:
-	Game(bool a);
+	Game(bool);
 	int Mune();
 	void Exit();
 	void Start();
 	void Small();
 	void Medium();
 	void Big();
-	void FlushMap(){}
+	void FinishGame(Map&);
 	bool Continue;
 	bool Exwhile;
 	friend class Map;

@@ -8,7 +8,7 @@ void Random:: random_init() {
 int Random:: random_int(int max) {
 	return rand() % max;
 }
-int Random::random_int(int min, int max) {
+int Random::random_int(int min, int max) {       //µ½²»ÁËmax
 	int tmin = ((min < max) ? min : max), tmax = ((min < max) ? max : min);
 	return tmin + random_int(tmax - tmin);
 }
