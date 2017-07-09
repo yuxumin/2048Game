@@ -84,12 +84,14 @@
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Record.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Operator.h" />
     <ClInclude Include="Random.h" />
+    <ClInclude Include="Record.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
